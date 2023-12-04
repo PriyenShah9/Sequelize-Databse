@@ -13,7 +13,7 @@ app.listen(port, () => {
 });
 
 
-const sequelize = new Sequelize('sequelize-test', 'root', 'qwertyuiop', {
+const sequelize = new Sequelize('sequelize-test', 'root', 'qwertyuiop', { //change database name, username, password based on local device
     host: 'localhost',
     port: 3306,
     dialect: 'mysql'
